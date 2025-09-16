@@ -6,11 +6,11 @@ function setup() {
   fill("red"); // red
   rect(50, 50, 100, 60);
   
-  fill(0, 255, 0); // green
+  fill("red"); // green -> red
   rect(200, 50, 80, 120);
   
   // 1 square
-  fill("blue"); // blue
+  fill("red"); // blue -> red
   square(350, 50, 70);
   
   // 1 circle
@@ -18,10 +18,10 @@ function setup() {
   ellipse(100, 250, 80, 80); // width = height for circle
   
   // 2 ellipses
-  fill(255, 0, 255); // magenta
+  fill("yellow"); // magenta -> yellow
   ellipse(250, 250, 120, 60); // wider ellipse
   
-  fill(0, 255, 255); // cyan
+  fill("yellow"); // cyan -> yellow
   ellipse(450, 250, 60, 120); // taller ellipse
   
   // 1 triangle
